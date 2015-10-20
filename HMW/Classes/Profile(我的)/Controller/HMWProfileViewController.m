@@ -1,32 +1,27 @@
 //
-//  HMWMessageViewController.m
+//  HMWProfileViewController.m
 //  HMW
 //
 //  Created by 刘伟龙 on 15/10/18.
 //  Copyright © 2015年 lwl. All rights reserved.
 //
 
-#import "HMWMessageViewController.h"
+#import "HMWProfileViewController.h"
 
-@interface HMWMessageViewController ()
+@interface HMWProfileViewController ()
 
 @end
 
-@implementation HMWMessageViewController
+@implementation HMWProfileViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"设置" style:UIBarButtonItemStylePlain target:self action:@selector(set)];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void) set{
+    
 }
 
 #pragma mark - Table view data source

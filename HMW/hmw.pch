@@ -9,12 +9,23 @@
 #ifndef hmw_pch
 #define hmw_pch
 
+#import "UIView+Extension.h"
+#import "UIBarButtonItem+Extension.h"
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
+#ifdef DEBUG
+
+#define HMWLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define HMWLog(...)
+
+#endif
+
 // RGB颜色
 #define HMWColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0];
-
 
 // 随机色
 #define RANDOM_COLOR HMWColor(arc4random_uniform(256),arc4random_uniform(256),arc4random_uniform(256))

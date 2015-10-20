@@ -11,12 +11,19 @@
 		7E63EE391BD36A8900AECFA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E63EE371BD36A8900AECFA5 /* LaunchScreen.storyboard */; };
 		7E63EE441BD36A8900AECFA5 /* HMWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E63EE431BD36A8900AECFA5 /* HMWTests.m */; };
 		7E63EE4F1BD36A8900AECFA5 /* HMWUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E63EE4E1BD36A8900AECFA5 /* HMWUITests.m */; };
-		7E63EE601BD36B4600AECFA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E63EE5E1BD36B4600AECFA5 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		7E63EE611BD36B4600AECFA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E63EE5F1BD36B4600AECFA5 /* main.m */; settings = {ASSET_TAGS = (); }; };
-		7E63EE651BD3F1FC00AECFA5 /* HMWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E63EE641BD3F1FC00AECFA5 /* HMWHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		7E63EE681BD3F21400AECFA5 /* HMWMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E63EE671BD3F21400AECFA5 /* HMWMessageViewController.m */; settings = {ASSET_TAGS = (); }; };
-		7E63EE6B1BD3F22900AECFA5 /* HMWDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E63EE6A1BD3F22900AECFA5 /* HMWDiscoverViewController.m */; settings = {ASSET_TAGS = (); }; };
-		7E63EE6E1BD3F23D00AECFA5 /* HMWProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E63EE6D1BD3F23D00AECFA5 /* HMWProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7ED8F3801BD6564D008BCF50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8F3571BD6564D008BCF50 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		7ED8F3811BD6564D008BCF50 /* HMWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8F35B1BD6564D008BCF50 /* HMWNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		7ED8F3821BD6564D008BCF50 /* HWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8F35D1BD6564D008BCF50 /* HWMainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7ED8F3831BD6564D008BCF50 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8F35F1BD6564D008BCF50 /* UIView+Extension.m */; settings = {ASSET_TAGS = (); }; };
+		7ED8F3841BD6564D008BCF50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8F3611BD6564D008BCF50 /* main.m */; settings = {ASSET_TAGS = (); }; };
+		7ED8F3851BD6564D008BCF50 /* HMWDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8F3671BD6564D008BCF50 /* HMWDiscoverViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7ED8F3861BD6564D008BCF50 /* HMWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8F36D1BD6564D008BCF50 /* HMWHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7ED8F3871BD6564D008BCF50 /* HMWMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8F3731BD6564D008BCF50 /* HMWMessageViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7ED8F3881BD6564D008BCF50 /* HMWProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8F3791BD6564D008BCF50 /* HMWProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7ED8F3891BD6564D008BCF50 /* MessageTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8F37E1BD6564D008BCF50 /* MessageTestViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7ED8F38A1BD6564D008BCF50 /* MessageTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ED8F37F1BD6564D008BCF50 /* MessageTestViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7ED8F38D1BD65CF3008BCF50 /* HMWItemTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8F38C1BD65CF3008BCF50 /* HMWItemTool.m */; settings = {ASSET_TAGS = (); }; };
+		7ED8F3901BD662A6008BCF50 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8F38F1BD662A6008BCF50 /* UIBarButtonItem+Extension.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,18 +54,31 @@
 		7E63EE4A1BD36A8900AECFA5 /* HMWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E63EE4E1BD36A8900AECFA5 /* HMWUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMWUITests.m; sourceTree = "<group>"; };
 		7E63EE501BD36A8900AECFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E63EE5D1BD36B4600AECFA5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7E63EE5E1BD36B4600AECFA5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7E63EE5F1BD36B4600AECFA5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E63EE621BD3D49C00AECFA5 /* hmw.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hmw.pch; sourceTree = "<group>"; };
-		7E63EE631BD3F1FC00AECFA5 /* HMWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWHomeViewController.h; sourceTree = "<group>"; };
-		7E63EE641BD3F1FC00AECFA5 /* HMWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWHomeViewController.m; sourceTree = "<group>"; };
-		7E63EE661BD3F21400AECFA5 /* HMWMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWMessageViewController.h; sourceTree = "<group>"; };
-		7E63EE671BD3F21400AECFA5 /* HMWMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWMessageViewController.m; sourceTree = "<group>"; };
-		7E63EE691BD3F22900AECFA5 /* HMWDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWDiscoverViewController.h; sourceTree = "<group>"; };
-		7E63EE6A1BD3F22900AECFA5 /* HMWDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWDiscoverViewController.m; sourceTree = "<group>"; };
-		7E63EE6C1BD3F23D00AECFA5 /* HMWProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWProfileViewController.h; sourceTree = "<group>"; };
-		7E63EE6D1BD3F23D00AECFA5 /* HMWProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWProfileViewController.m; sourceTree = "<group>"; };
+		7ED8F3561BD6564D008BCF50 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7ED8F3571BD6564D008BCF50 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7ED8F35A1BD6564D008BCF50 /* HMWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWNavigationController.h; sourceTree = "<group>"; };
+		7ED8F35B1BD6564D008BCF50 /* HMWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWNavigationController.m; sourceTree = "<group>"; };
+		7ED8F35C1BD6564D008BCF50 /* HWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWMainViewController.h; sourceTree = "<group>"; };
+		7ED8F35D1BD6564D008BCF50 /* HWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWMainViewController.m; sourceTree = "<group>"; };
+		7ED8F35E1BD6564D008BCF50 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "../Controller/UIView+Extension.h"; sourceTree = "<group>"; };
+		7ED8F35F1BD6564D008BCF50 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "../Controller/UIView+Extension.m"; sourceTree = "<group>"; };
+		7ED8F3611BD6564D008BCF50 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7ED8F3661BD6564D008BCF50 /* HMWDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWDiscoverViewController.h; sourceTree = "<group>"; };
+		7ED8F3671BD6564D008BCF50 /* HMWDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWDiscoverViewController.m; sourceTree = "<group>"; };
+		7ED8F36C1BD6564D008BCF50 /* HMWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWHomeViewController.h; sourceTree = "<group>"; };
+		7ED8F36D1BD6564D008BCF50 /* HMWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWHomeViewController.m; sourceTree = "<group>"; };
+		7ED8F3721BD6564D008BCF50 /* HMWMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWMessageViewController.h; sourceTree = "<group>"; };
+		7ED8F3731BD6564D008BCF50 /* HMWMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWMessageViewController.m; sourceTree = "<group>"; };
+		7ED8F3781BD6564D008BCF50 /* HMWProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWProfileViewController.h; sourceTree = "<group>"; };
+		7ED8F3791BD6564D008BCF50 /* HMWProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWProfileViewController.m; sourceTree = "<group>"; };
+		7ED8F37D1BD6564D008BCF50 /* MessageTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTestViewController.h; sourceTree = "<group>"; };
+		7ED8F37E1BD6564D008BCF50 /* MessageTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTestViewController.m; sourceTree = "<group>"; };
+		7ED8F37F1BD6564D008BCF50 /* MessageTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTestViewController.xib; sourceTree = "<group>"; };
+		7ED8F38B1BD65CF3008BCF50 /* HMWItemTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMWItemTool.h; path = "../Common(通用)/Controller/HMWItemTool.h"; sourceTree = "<group>"; };
+		7ED8F38C1BD65CF3008BCF50 /* HMWItemTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMWItemTool.m; path = "../Common(通用)/Controller/HMWItemTool.m"; sourceTree = "<group>"; };
+		7ED8F38E1BD662A6008BCF50 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		7ED8F38F1BD662A6008BCF50 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,19 +167,216 @@
 		7E63EE5C1BD36B4600AECFA5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7E63EE5D1BD36B4600AECFA5 /* AppDelegate.h */,
-				7E63EE5E1BD36B4600AECFA5 /* AppDelegate.m */,
-				7E63EE5F1BD36B4600AECFA5 /* main.m */,
-				7E63EE631BD3F1FC00AECFA5 /* HMWHomeViewController.h */,
-				7E63EE641BD3F1FC00AECFA5 /* HMWHomeViewController.m */,
-				7E63EE661BD3F21400AECFA5 /* HMWMessageViewController.h */,
-				7E63EE671BD3F21400AECFA5 /* HMWMessageViewController.m */,
-				7E63EE691BD3F22900AECFA5 /* HMWDiscoverViewController.h */,
-				7E63EE6A1BD3F22900AECFA5 /* HMWDiscoverViewController.m */,
-				7E63EE6C1BD3F23D00AECFA5 /* HMWProfileViewController.h */,
-				7E63EE6D1BD3F23D00AECFA5 /* HMWProfileViewController.m */,
+				7ED8F36A1BD6564D008BCF50 /* Home(首页) */,
+				7ED8F3641BD6564D008BCF50 /* Discover(发现) */,
+				7ED8F3701BD6564D008BCF50 /* Message(消息) */,
+				7ED8F3761BD6564D008BCF50 /* Profile(我的) */,
+				7ED8F3551BD6564D008BCF50 /* Common(通用) */,
+				7ED8F37C1BD6564D008BCF50 /* Temp(临时) */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		7ED8F3551BD6564D008BCF50 /* Common(通用) */ = {
+			isa = PBXGroup;
+			children = (
+				7ED8F3561BD6564D008BCF50 /* AppDelegate.h */,
+				7ED8F3571BD6564D008BCF50 /* AppDelegate.m */,
+				7ED8F3611BD6564D008BCF50 /* main.m */,
+				7ED8F3581BD6564D008BCF50 /* Category */,
+				7ED8F3591BD6564D008BCF50 /* Controller */,
+				7ED8F3601BD6564D008BCF50 /* Lib */,
+				7ED8F3621BD6564D008BCF50 /* Model */,
+				7ED8F3631BD6564D008BCF50 /* View */,
+			);
+			path = "Common(通用)";
+			sourceTree = "<group>";
+		};
+		7ED8F3581BD6564D008BCF50 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7ED8F35E1BD6564D008BCF50 /* UIView+Extension.h */,
+				7ED8F35F1BD6564D008BCF50 /* UIView+Extension.m */,
+				7ED8F38E1BD662A6008BCF50 /* UIBarButtonItem+Extension.h */,
+				7ED8F38F1BD662A6008BCF50 /* UIBarButtonItem+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7ED8F3591BD6564D008BCF50 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7ED8F35A1BD6564D008BCF50 /* HMWNavigationController.h */,
+				7ED8F35B1BD6564D008BCF50 /* HMWNavigationController.m */,
+				7ED8F35C1BD6564D008BCF50 /* HWMainViewController.h */,
+				7ED8F35D1BD6564D008BCF50 /* HWMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7ED8F3601BD6564D008BCF50 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		7ED8F3621BD6564D008BCF50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7ED8F3631BD6564D008BCF50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7ED8F3641BD6564D008BCF50 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				7ED8F3651BD6564D008BCF50 /* Controller */,
+				7ED8F3681BD6564D008BCF50 /* Model */,
+				7ED8F3691BD6564D008BCF50 /* View */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		7ED8F3651BD6564D008BCF50 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7ED8F3661BD6564D008BCF50 /* HMWDiscoverViewController.h */,
+				7ED8F3671BD6564D008BCF50 /* HMWDiscoverViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7ED8F3681BD6564D008BCF50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7ED8F3691BD6564D008BCF50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7ED8F36A1BD6564D008BCF50 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				7ED8F36B1BD6564D008BCF50 /* Controller */,
+				7ED8F36E1BD6564D008BCF50 /* Model */,
+				7ED8F36F1BD6564D008BCF50 /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		7ED8F36B1BD6564D008BCF50 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7ED8F36C1BD6564D008BCF50 /* HMWHomeViewController.h */,
+				7ED8F36D1BD6564D008BCF50 /* HMWHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7ED8F36E1BD6564D008BCF50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7ED8F36F1BD6564D008BCF50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7ED8F3701BD6564D008BCF50 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				7ED8F3711BD6564D008BCF50 /* Controller */,
+				7ED8F3741BD6564D008BCF50 /* Model */,
+				7ED8F3751BD6564D008BCF50 /* View */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		7ED8F3711BD6564D008BCF50 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7ED8F3721BD6564D008BCF50 /* HMWMessageViewController.h */,
+				7ED8F3731BD6564D008BCF50 /* HMWMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7ED8F3741BD6564D008BCF50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7ED8F3751BD6564D008BCF50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7ED8F3761BD6564D008BCF50 /* Profile(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				7ED8F3771BD6564D008BCF50 /* Controller */,
+				7ED8F37A1BD6564D008BCF50 /* Model */,
+				7ED8F37B1BD6564D008BCF50 /* View */,
+			);
+			path = "Profile(我的)";
+			sourceTree = "<group>";
+		};
+		7ED8F3771BD6564D008BCF50 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7ED8F3781BD6564D008BCF50 /* HMWProfileViewController.h */,
+				7ED8F3791BD6564D008BCF50 /* HMWProfileViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7ED8F37A1BD6564D008BCF50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7ED8F37B1BD6564D008BCF50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7ED8F37C1BD6564D008BCF50 /* Temp(临时) */ = {
+			isa = PBXGroup;
+			children = (
+				7ED8F38B1BD65CF3008BCF50 /* HMWItemTool.h */,
+				7ED8F38C1BD65CF3008BCF50 /* HMWItemTool.m */,
+				7ED8F37D1BD6564D008BCF50 /* MessageTestViewController.h */,
+				7ED8F37E1BD6564D008BCF50 /* MessageTestViewController.m */,
+				7ED8F37F1BD6564D008BCF50 /* MessageTestViewController.xib */,
+			);
+			path = "Temp(临时)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +485,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ED8F38A1BD6564D008BCF50 /* MessageTestViewController.xib in Resources */,
 				7E63EE391BD36A8900AECFA5 /* LaunchScreen.storyboard in Resources */,
 				7E63EE361BD36A8900AECFA5 /* Assets.xcassets in Resources */,
 			);
@@ -294,12 +512,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E63EE6B1BD3F22900AECFA5 /* HMWDiscoverViewController.m in Sources */,
-				7E63EE651BD3F1FC00AECFA5 /* HMWHomeViewController.m in Sources */,
-				7E63EE681BD3F21400AECFA5 /* HMWMessageViewController.m in Sources */,
-				7E63EE6E1BD3F23D00AECFA5 /* HMWProfileViewController.m in Sources */,
-				7E63EE611BD36B4600AECFA5 /* main.m in Sources */,
-				7E63EE601BD36B4600AECFA5 /* AppDelegate.m in Sources */,
+				7ED8F3901BD662A6008BCF50 /* UIBarButtonItem+Extension.m in Sources */,
+				7ED8F3841BD6564D008BCF50 /* main.m in Sources */,
+				7ED8F3821BD6564D008BCF50 /* HWMainViewController.m in Sources */,
+				7ED8F3891BD6564D008BCF50 /* MessageTestViewController.m in Sources */,
+				7ED8F38D1BD65CF3008BCF50 /* HMWItemTool.m in Sources */,
+				7ED8F3851BD6564D008BCF50 /* HMWDiscoverViewController.m in Sources */,
+				7ED8F3811BD6564D008BCF50 /* HMWNavigationController.m in Sources */,
+				7ED8F3831BD6564D008BCF50 /* UIView+Extension.m in Sources */,
+				7ED8F3871BD6564D008BCF50 /* HMWMessageViewController.m in Sources */,
+				7ED8F3881BD6564D008BCF50 /* HMWProfileViewController.m in Sources */,
+				7ED8F3801BD6564D008BCF50 /* AppDelegate.m in Sources */,
+				7ED8F3861BD6564D008BCF50 /* HMWHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +741,7 @@
 				7E63EE551BD36A8900AECFA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E63EE561BD36A8900AECFA5 /* Build configuration list for PBXNativeTarget "HMWTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +750,7 @@
 				7E63EE581BD36A8900AECFA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E63EE591BD36A8900AECFA5 /* Build configuration list for PBXNativeTarget "HMWUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +759,7 @@
 				7E63EE5B1BD36A8900AECFA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

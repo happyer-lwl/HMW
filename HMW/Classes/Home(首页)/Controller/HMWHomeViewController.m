@@ -1,27 +1,35 @@
 //
-//  HMWProfileViewController.m
+//  HMWHomeViewController.m
 //  HMW
 //
 //  Created by 刘伟龙 on 15/10/18.
 //  Copyright © 2015年 lwl. All rights reserved.
 //
 
-#import "HMWProfileViewController.h"
+#import "HMWHomeViewController.h"
 
-@interface HMWProfileViewController ()
+@interface HMWHomeViewController ()
 
 @end
 
-@implementation HMWProfileViewController
+@implementation HMWHomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithAction:@selector(friendsearch) target:self image:@"navigationbar_friendsearch" highImage:@"navigationbar_friendsearch_highlighted"];
+   
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithAction:@selector(pop) target:self image:@"navigationbar_pop" highImage:@"navigationbar_pop_highlighted"];
+}
+
+-(void)friendsearch
+{
+    //[self.navigationController popViewControllerAnimated:YES];
+}
+
+-(void)pop
+{
+    //[self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

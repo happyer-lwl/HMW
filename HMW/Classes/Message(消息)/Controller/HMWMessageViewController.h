@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MessageTestViewController.h"
 
 @interface HMWMessageViewController : UITableViewController
 

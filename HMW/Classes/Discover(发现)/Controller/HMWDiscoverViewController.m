@@ -10,6 +10,8 @@
 
 @interface HMWDiscoverViewController ()
 
+//@property (nonatomic, weak) UITextField *searchBar;
+
 @end
 
 @implementation HMWDiscoverViewController
@@ -17,8 +19,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UISearchBar* searchBar = [[UISearchBar alloc] init];
-    self.navigationItem.titleView = searchBar;
+    // 输入框对象
+    _searchBar = [HMWSearchBar searchBar];
+    _searchBar.x = 20;
+    _searchBar.width = [UIScreen mainScreen].bounds.size.width - 40;
+    _searchBar.height = 35;
+    
+    self.navigationItem.titleView = _searchBar;
+}
+
+- (void) touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)even
+{
+    [_searchBar resignFirstResponder];
 }
 
 - (void)didReceiveMemoryWarning {

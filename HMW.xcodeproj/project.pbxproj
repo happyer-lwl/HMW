@@ -11,6 +11,7 @@
 		7E63EE391BD36A8900AECFA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E63EE371BD36A8900AECFA5 /* LaunchScreen.storyboard */; };
 		7E63EE441BD36A8900AECFA5 /* HMWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E63EE431BD36A8900AECFA5 /* HMWTests.m */; };
 		7E63EE4F1BD36A8900AECFA5 /* HMWUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E63EE4E1BD36A8900AECFA5 /* HMWUITests.m */; };
+		7ECED0BB1BD6B043001F5EB9 /* HMWSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECED0BA1BD6B043001F5EB9 /* HMWSearchBar.m */; settings = {ASSET_TAGS = (); }; };
 		7ED8F3801BD6564D008BCF50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8F3571BD6564D008BCF50 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
 		7ED8F3811BD6564D008BCF50 /* HMWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8F35B1BD6564D008BCF50 /* HMWNavigationController.m */; settings = {ASSET_TAGS = (); }; };
 		7ED8F3821BD6564D008BCF50 /* HWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED8F35D1BD6564D008BCF50 /* HWMainViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -55,6 +56,8 @@
 		7E63EE4E1BD36A8900AECFA5 /* HMWUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMWUITests.m; sourceTree = "<group>"; };
 		7E63EE501BD36A8900AECFA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E63EE621BD3D49C00AECFA5 /* hmw.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hmw.pch; sourceTree = "<group>"; };
+		7ECED0B91BD6B043001F5EB9 /* HMWSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWSearchBar.h; sourceTree = "<group>"; };
+		7ECED0BA1BD6B043001F5EB9 /* HMWSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMWSearchBar.m; sourceTree = "<group>"; };
 		7ED8F3561BD6564D008BCF50 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7ED8F3571BD6564D008BCF50 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7ED8F35A1BD6564D008BCF50 /* HMWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMWNavigationController.h; sourceTree = "<group>"; };
@@ -231,6 +234,8 @@
 		7ED8F3631BD6564D008BCF50 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7ECED0B91BD6B043001F5EB9 /* HMWSearchBar.h */,
+				7ECED0BA1BD6B043001F5EB9 /* HMWSearchBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -521,6 +526,7 @@
 				7ED8F3811BD6564D008BCF50 /* HMWNavigationController.m in Sources */,
 				7ED8F3831BD6564D008BCF50 /* UIView+Extension.m in Sources */,
 				7ED8F3871BD6564D008BCF50 /* HMWMessageViewController.m in Sources */,
+				7ECED0BB1BD6B043001F5EB9 /* HMWSearchBar.m in Sources */,
 				7ED8F3881BD6564D008BCF50 /* HMWProfileViewController.m in Sources */,
 				7ED8F3801BD6564D008BCF50 /* AppDelegate.m in Sources */,
 				7ED8F3861BD6564D008BCF50 /* HMWHomeViewController.m in Sources */,

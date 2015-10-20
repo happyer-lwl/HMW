@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HMWSearchBar.h"
 
 @interface HMWDiscoverViewController : UITableViewController
+
+@property (nonatomic, retain) HMWSearchBar *searchBar;
 
 @end
